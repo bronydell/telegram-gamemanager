@@ -21,32 +21,34 @@ You can have unlimited count of games and you don't have to worry about deliveri
     In `admins` array put telegram id, owner of this id'll be an admin
     In `games` array add or remove games
     The template for the games looks like this:
-    `
+    
+    ```json
     {
       "name": "<GAME NAME>",
       "play_text": "<GAME SHORT DESCRIPTION>",
       "game_short_name": "<GAME'S SHORT NAME THAT YOU'VE CREATED WITH @botfather>",
       "url": "<GAME URL>"
     }
-    `
+    ```
+    
     For example:
-    `
-  "games":[
-    {
-      "name": "GAME A",
-      "play_text": "Play GAME A",
-      "game_short_name": "game_a",
-      "url": "<url_to_a_game>"
-    },
-    {
-      "name": "GAME B",
-      "play_text": "Play GAME B",
-      "game_short_name": "game_b",
-      "url": "<url_to_a_game>"
-    }
-  ]
-}
-    `
+    
+    ```json
+      "games":[
+        {
+          "name": "GAME A",
+          "play_text": "Play GAME A",
+          "game_short_name": "game_a",
+          "url": "<url_to_a_game>"
+        },
+        {
+          "name": "GAME B",
+          "play_text": "Play GAME B",
+          "game_short_name": "game_b",
+          "url": "<url_to_a_game>"
+        }
+      ]
+    ```
     
     You can find this example in repo.
 
