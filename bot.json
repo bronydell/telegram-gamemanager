@@ -1,0 +1,19 @@
+{
+  "key": "<PUT YOUR KEY HERE!>",
+  "messages": {
+    "play_with_friends": "Play with friends!",
+    "not_admin": "You aren't administrator"
+  },
+  "admins": [
+    122921921,
+    3527572
+  ],
+  "games": [
+    {
+      "name": "Box game",
+      "play_text": "Play a box game",
+      "game_short_name": "boxgame",
+      "url": "http://s1.al3xable.me/bronygame"
+    }
+  ]
+}
